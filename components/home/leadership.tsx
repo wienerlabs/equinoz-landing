@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import LinkedinLink from '@/components/linkedin-link'
 import { home } from '@/lib/content/home'
 import { publishedTeam } from '@/lib/content/people'
 import { href, type Lang } from '@/lib/i18n'
@@ -43,11 +44,7 @@ export default function Leadership({ lang }: { lang: Lang }) {
             <Link href={href('team', lang)} className="link-line">
               {home.leadership.more[lang]} →
             </Link>
-            {founder.linkedin ? (
-              <a href={founder.linkedin} target="_blank" rel="noopener noreferrer" className="link-line text-clay/70">
-                LinkedIn
-              </a>
-            ) : null}
+            {founder.linkedin ? <LinkedinLink href={founder.linkedin} name={founder.name} className="text-clay/70 hover:text-sand" /> : null}
           </div>
         </div>
       </div>
