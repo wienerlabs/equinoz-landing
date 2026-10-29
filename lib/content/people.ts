@@ -1,6 +1,7 @@
 import type { StaticImageData } from 'next/image'
 import type { L } from '@/lib/i18n'
 import meltem from '@/assets/media/meltem-nurkan.jpg'
+import merih from '@/assets/media/merih-deligoz.jpg'
 import ozge from '@/assets/media/ozge-basturk.jpg'
 import parvina from '@/assets/media/parvina-narzullaeva.jpg'
 import ramazan from '@/assets/media/ramazan-manzak.jpg'
@@ -33,6 +34,7 @@ export const team: Member[] = [
       tr: 'Gayrimenkul ve satış yönetimindeki 25 yılı aşkın deneyimiyle Equinoz’un operasyonlarını, ekip koordinasyonunu ve büyüme stratejisinin uygulanmasını yönetir.',
       en: 'Leads Equinoz’s operations, team coordination and the execution of its growth strategy, drawing on more than 25 years of experience in real estate and sales management.',
     },
+    photo: merih,
     linkedin: 'https://www.linkedin.com/in/merih-deligoz-680b9888/',
     published: true,
   },
