@@ -1,5 +1,8 @@
 import type { StaticImageData } from 'next/image'
 import type { L } from '@/lib/i18n'
+import meltem from '@/assets/media/meltem-nurkan.jpg'
+import ozge from '@/assets/media/ozge-basturk.jpg'
+import parvina from '@/assets/media/parvina-narzullaeva.jpg'
 import ramazan from '@/assets/media/ramazan-manzak.jpg'
 
 export type Member = {
@@ -40,6 +43,7 @@ export const team: Member[] = [
       tr: 'Uluslararası yatırım ve oturum süreçlerindeki deneyimiyle Türkiye’deki müşteri ilişkilerini, iş ortaklıklarını ve Türkiye ile BAE arasındaki iş geliştirme çalışmalarını yönetir.',
       en: 'Leads client relationships and partnerships in Türkiye, along with business development between Türkiye and the UAE, drawing on experience in international investment and residency processes.',
     },
+    photo: meltem,
     linkedin: 'https://www.linkedin.com/in/meltemuygunn/',
     published: true,
   },
@@ -70,6 +74,7 @@ export const team: Member[] = [
       tr: 'Equinoz’un müşteri operasyonlarını ve başvuru süreçlerini yönetir. İlk değerlendirmeden işlemlerin tamamlanmasına kadar dokümantasyonu, süreç takibini ve ekip koordinasyonunu sağlayarak müşterilere düzenli ve şeffaf bir hizmet deneyimi sunar.',
       en: 'Leads Equinoz’s client operations and application processes. Handles documentation, process tracking and team coordination from the first assessment until the work is complete, giving clients an orderly and transparent service experience.',
     },
+    photo: ozge,
     linkedin: 'https://www.linkedin.com/in/ozge-basturk-5b548355/',
     published: true,
   },
@@ -99,6 +104,7 @@ export const team: Member[] = [
       tr: 'Grafik tasarım deneyimiyle Equinoz’un sosyal medya içeriklerini ve görsel iletişimini geliştirir; markanın tutarlı ve dikkat çekici biçimde temsil edilmesine odaklanır.',
       en: 'Develops Equinoz’s social media content and visual communication, drawing on a background in graphic design, with a focus on presenting the brand in a consistent and striking way.',
     },
+    photo: parvina,
     linkedin: 'https://www.linkedin.com/in/parvinanarzullaeva/',
     published: true,
   },
