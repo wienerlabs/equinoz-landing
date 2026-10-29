@@ -158,6 +158,10 @@ export const home = {
       tr: 'Her talep önce yönetimimize ulaşır; işiniz, ihtiyacınıza en uygun uzmanlıkla yürür.',
       en: 'Every request reaches our leadership first, and your work is carried by the discipline that fits it best.',
     },
+    members: {
+      eyebrow: { tr: 'Ekibimiz', en: 'Our team' },
+      title: { tr: 'Aynı çatı altında, tek ekip.', en: 'One team, under one roof.' },
+    },
   },
   partners: {
     seo: {
