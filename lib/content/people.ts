@@ -1,5 +1,6 @@
 import type { StaticImageData } from 'next/image'
 import type { L } from '@/lib/i18n'
+import mahmut from '@/assets/media/mahmut-ertus.jpg'
 import meltem from '@/assets/media/meltem-nurkan.jpg'
 import merih from '@/assets/media/merih-deligoz.jpg'
 import ozge from '@/assets/media/ozge-basturk.jpg'
@@ -56,6 +57,7 @@ export const team: Member[] = [
       tr: 'Suffolk University’deki işletme yüksek lisansı ve Datadog’daki iş analizi deneyimiyle Equinoz Education’ın stratejisini, uluslararası eğitim iş birliklerini ve operasyonlarını yönetir.',
       en: 'Leads the strategy, international education partnerships and operations of Equinoz Education, drawing on a master’s degree in business from Suffolk University and business analysis experience at Datadog.',
     },
+    photo: mahmut,
     linkedin: 'https://www.linkedin.com/in/mahmut-ertus-166143195/',
     published: true,
   },
